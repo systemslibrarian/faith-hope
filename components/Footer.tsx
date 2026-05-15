@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="container-prose grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div className="space-y-3">
           <p className="font-serif text-lg text-parchment-50">
-            Faith <span className="text-gold-400">&amp;</span> Hope Lab
+            Faith <span className="text-gold-400">&amp;</span> Hope
           </p>
           <p className="text-sm text-parchment-200/80">
             Scripture-centered tools for understanding, remembering,
@@ -99,7 +99,7 @@ export default function Footer() {
       <div className="border-t border-gold-400/10">
         <div className="container-prose flex flex-col items-center justify-between gap-2 py-6 text-xs text-parchment-200/60 sm:flex-row">
           <p>
-            &copy; {year} Faith &amp; Hope Lab. Built for ministry, offered in
+            &copy; {year} Faith &amp; Hope. Built for ministry, offered in
             hope.
           </p>
           <p className="font-serif italic text-gold-400/70">

@@ -1,4 +1,4 @@
-# Faith & Hope Lab
+# Faith & Hope
 
 Scripture-centered tools for understanding, remembering, discerning, and interceding.
 
@@ -50,7 +50,7 @@ Default URL: `https://systemslibrarian.github.io/faith-hope/`
 
 The build sets `NEXT_PUBLIC_BASE_PATH=/faith-hope` so all internal links resolve under the project path. If you ever move this site to:
 
-- a **custom domain** (e.g. `faithandhopelab.com`), or
+- a **custom domain** (e.g. `faithandhope.com`), or
 - a **user/organization page** (e.g. `systemslibrarian.github.io`),
 
 set `NEXT_PUBLIC_BASE_PATH=""` in the workflow (or remove the env line) and the basePath will drop away. For a custom domain, also add a `public/CNAME` file containing the domain.

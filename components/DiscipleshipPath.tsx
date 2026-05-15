@@ -23,16 +23,19 @@ export default function DiscipleshipPath() {
             understanding Scripture, remembering it, seeking God&apos;s will,
             and praying for one another.
           </p>
-          <div className="mt-8 flex items-center justify-center gap-2 text-xs uppercase tracking-wider2 text-gold-400/80">
+          <ol
+            aria-label="Stages of the path"
+            className="mt-8 flex flex-wrap items-center justify-center gap-x-2 gap-y-2 text-xs uppercase tracking-wider2 text-gold-400/80"
+          >
             {stages.map((s, i) => (
-              <span key={s.name} className="flex items-center gap-2">
+              <li key={s.name} className="flex items-center gap-2">
                 <span>{s.name}</span>
                 {i < stages.length - 1 && (
                   <ArrowRightIcon className="h-3 w-3 text-gold-400/50" />
                 )}
-              </span>
+              </li>
             ))}
-          </div>
+          </ol>
         </div>
 
         <ol className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

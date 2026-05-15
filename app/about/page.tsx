@@ -34,7 +34,7 @@ export default function AboutPage() {
             disciplines that shape the projects gathered here.
           </p>
           <p>
-            Faith &amp; Hope Lab is where I bring that work into ministry.
+            Faith &amp; Hope is where I bring that work into ministry.
             Each project is built with care for accuracy, clarity, and the
             people who will use it. Scripture is not a marketing layer on top
             of a tech demo. It is the reason these tools exist.

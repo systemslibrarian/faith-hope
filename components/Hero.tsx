@@ -17,7 +17,7 @@ export default function Hero() {
 
       <div className="container-prose pb-24 pt-20 sm:pt-28 lg:pt-32">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="eyebrow">Faith &amp; Hope Lab</p>
+          <p className="eyebrow">Faith &amp; Hope</p>
           <h1
             id="hero-heading"
             className="mt-6 text-balance font-serif text-4xl leading-[1.1] text-parchment-50 sm:text-5xl md:text-6xl"

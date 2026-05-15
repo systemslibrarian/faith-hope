@@ -111,7 +111,7 @@ export default function FaithAndHopePage() {
           <div className="card-quiet">
             <p className="eyebrow">Four practices</p>
             <p className="mt-4 text-base text-parchment-200/85">
-              Faith &amp; Hope Lab is organized around four practices.
+              Faith &amp; Hope is organized around four practices.
               They&apos;re not steps you complete and leave behind — they
               are rhythms a believer returns to throughout life.
             </p>

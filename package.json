@@ -1,8 +1,8 @@
 {
-  "name": "faith-hope-lab",
+  "name": "faith-hope",
   "version": "0.1.0",
   "private": true,
-  "description": "Faith & Hope Lab — a Scripture-centered ministry-tech portfolio by Paul Clark / Systems Librarian.",
+  "description": "Faith & Hope — a Scripture-centered ministry-tech portfolio by Paul Clark / Systems Librarian.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
