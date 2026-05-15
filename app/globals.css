@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-serif: "Cormorant Garamond", "EB Garamond", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink-950 text-parchment-100 font-sans antialiased;
+    background-image:
+      radial-gradient(
+        ellipse 80% 50% at 50% -10%,
+        rgba(212, 175, 55, 0.08),
+        transparent 60%
+      ),
+      radial-gradient(
+        ellipse 60% 50% at 100% 100%,
+        rgba(212, 175, 55, 0.04),
+        transparent 60%
+      );
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif tracking-tight text-parchment-50;
+  }
+
+  ::selection {
+    background: rgba(212, 175, 55, 0.3);
+    color: #fbf7ec;
+  }
+}
+
+@layer components {
+  .container-prose {
+    @apply mx-auto w-full max-w-6xl px-6 sm:px-8;
+  }
+
+  .container-narrow {
+    @apply mx-auto w-full max-w-3xl px-6 sm:px-8;
+  }
+
+  .eyebrow {
+    @apply font-sans text-xs uppercase tracking-wider2 text-gold-400/80;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3
+      text-sm font-medium tracking-wide transition-all duration-300
+      focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400
+      focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950;
+  }
+
+  .btn-primary {
+    @apply btn bg-gold-400 text-ink-950 hover:bg-gold-300 hover:shadow-glow;
+  }
+
+  .btn-secondary {
+    @apply btn border border-gold-400/30 text-parchment-100 hover:border-gold-400/60
+      hover:bg-gold-400/5 hover:text-parchment-50;
+  }
+
+  .btn-ghost {
+    @apply btn text-parchment-200 hover:text-gold-300;
+  }
+
+  .card {
+    @apply relative rounded-2xl border border-gold-400/10 bg-ink-900/60
+      p-7 backdrop-blur-sm transition-all duration-300
+      hover:border-gold-400/30 hover:bg-ink-800/60 hover:shadow-glow;
+  }
+
+  .card-quiet {
+    @apply rounded-2xl border border-gold-400/10 bg-ink-900/40 p-7 backdrop-blur-sm;
+  }
+
+  .divider-gold {
+    @apply mx-auto h-px w-16 bg-gradient-to-r from-transparent via-gold-400/60 to-transparent;
+  }
+
+  .link-gold {
+    @apply text-gold-300 underline decoration-gold-400/30 underline-offset-4
+      transition-colors hover:text-gold-200 hover:decoration-gold-400/60;
+  }
+
+  .tag {
+    @apply inline-flex items-center rounded-full border border-gold-400/15
+      bg-gold-400/5 px-3 py-1 text-xs font-medium text-parchment-200;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  .mask-fade-bottom {
+    mask-image: linear-gradient(to bottom, black 60%, transparent);
+  }
+}

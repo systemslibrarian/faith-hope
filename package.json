@@ -1,0 +1,29 @@
+{
+  "name": "faith-hope-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Faith & Hope Lab — a Scripture-centered ministry-tech portfolio by Paul Clark / Systems Librarian.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.5.18",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.20",
+    "eslint": "8.57.0",
+    "eslint-config-next": "15.5.18",
+    "postcss": "8.4.47",
+    "tailwindcss": "3.4.14",
+    "typescript": "5.5.4"
+  }
+}
